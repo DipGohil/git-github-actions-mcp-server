@@ -1,0 +1,11 @@
+.venv/
+git_mcp_env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.env
+mcp-config.json
+.DS_Store
+.pytest_cache/

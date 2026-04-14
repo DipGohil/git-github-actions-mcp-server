@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-git-mcp"
+version = "0.1.0"
+description = "MCP server for local Git and GitHub pull request operations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp>=1.27.0,<2.0.0",
+  "PyGithub>=2.9.0,<3.0.0",
+  "python-dotenv>=1.0.0,<2.0.0",
+]
+
+[project.scripts]
+github-git-mcp = "github_git_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["github_git_mcp*"]

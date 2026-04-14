@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "github-git": {
+      "command": "/Users/arun/Git_mcp/git_mcp_env/bin/python",
+      "args": ["/Users/arun/Git_mcp/github_git_mcp/server.py"]
+    }
+  }
+}

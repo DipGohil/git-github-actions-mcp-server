@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "github-git": {
+      "command": "/ABSOLUTE/PATH/TO/.venv/bin/python",
+      "args": ["/ABSOLUTE/PATH/TO/github_git_mcp/server.py"]
+    }
+  }
+}
